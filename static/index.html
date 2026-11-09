@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Live football scores, match insights and AI-generated summaries.">
+  <title>MatchStats AI — Football Intelligence</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <header class="topbar"><a class="brand" href="/">◉ MatchStats<span>AI</span></a><div class="topmeta"><span class="live-dot"></span> MATCH CENTER <span class="pill">BETA</span></div></header>
+  <main class="shell">
+    <section class="hero"><div><p class="eyebrow">FOOTBALL INTELLIGENCE, IN REAL TIME</p><h1>See the game<br><em>before it unfolds.</em></h1><p class="sub">Live fixtures, match context and transparent probability estimates in one focused workspace.</p></div><div class="hero-stat"><strong id="match-count">—</strong><span>FIXTURES TRACKED</span><small id="data-source">Connecting to data…</small></div></section>
+    <section class="toolbar"><div><p class="eyebrow">TODAY'S CENTER</p><h2>Match radar</h2></div><button id="refresh">↻ Refresh data</button></section>
+    <div id="matches" class="match-grid"><div class="loading">Loading fixtures…</div></div>
+    <section class="disclaimer">Model estimates are experimental, explainable baselines — not guarantees or betting advice. Live coverage depends on your configured data provider.</section>
+  </main>
+  <footer>© 2026 MatchStats AI <span>Built for better football understanding.</span><a href="/docs">API docs ↗</a></footer>
+  <script src="/static/app.js"></script>
+</body></html>
